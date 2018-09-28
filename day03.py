@@ -42,7 +42,11 @@ for i in range(100,1001):
 n=1
 while n**2<=12000:
     n+=1
-print(n,n-1)
+print(n)
+n=1
+while n**3<=12000:
+    n+=1
+print(n-1)
 '''
 '''
 a=0
