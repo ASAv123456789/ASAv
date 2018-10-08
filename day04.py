@@ -116,7 +116,7 @@ import random
 a=random.randint(1,6)
 b=random.randint(1,6)
 n=a+b
-if n==2 or n==7 or n==12:
+if n==2 or n==3 or n==12:
     print('You rolled ',a,'+',b,'=',n)
     print('You lose')
 elif n==7 or n==11:
