@@ -177,3 +177,18 @@ def a():
             break
 a()
 '''
+'''
+12.
+def a(b):
+    m=0
+    for i in range(len(b)-3):
+        if b[i]==b[i+1] and b[i]==b[i+2] and b[i]==b[i+3]:
+            print('包含')
+        else:
+            m+=1
+    if m==len(b)-3:
+        print('不包含')
+c=input()
+c=c.split()
+a(c)
+'''
